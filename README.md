@@ -2,7 +2,7 @@
 WAR is an adaptation of Casino War which is an adaptation of the table game WAR/BATTLE which is mostly played by children.
 The game was constructed with basic HTML, CSS and JavaScript.
 
-[Play WAR](http://127.0.0.1:5500/index.html)
+[Play WAR](https://mtlum.github.io/Project-1---WAR/)
 
 ## How To Play
 WAR is played between a player and a dealer which costs 1 credit. Both parties receive a random card. The cards are then compared to one another to determine which is higher in rank. The party holding the higher card is the winner. If the player wins, they are awarded 2 credits. If both cards are of equal rank, the player and dealer enter WAR. During WAR an additional card is drawn for both parties to determine the winner. If the player wins WAR, they are awarded 3 credits. However, if the player loses WAR, 1 credit will be deducted. The game is over when the player has run out of credits.
