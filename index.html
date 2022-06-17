@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./card-deck-css/css/cardstarter.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>WAR</title>
+  </head>
+  <body background="/card-deck-css/images/cardbackground.jpg">
+    <div id="header">
+      <h1>Welcome To WAR!</h1>
+      <h2>Rules</h2>
+      <div id="rules">
+        <p>1 credit to play</p>
+        One card is given to the player and dealer. The individual with the
+        higher numbered card wins. If the player card and dealer card are of the
+        same number, WAR occurs. During WAR the player and dealer are given new
+        cards to compare.
+        <ul style="list-style-type: none">
+          <li>Win earns 2 credits</li>
+          <li>WAR win earns 3 credits</li>
+          <li>WAR lost lose 1 credit</li>
+        </ul>
+        <p class="suites">♦:d ♥:h ♠:s ♣:c</p>
+      </div>
+      <p>
+        <button onClick="playing()">PLAY</button>
+      </p>
+      <div id="outcome"></div>
+      <div class="player">
+        Player
+        <div id="presult"></div>
+        <div id="p2result"></div>
+        <!-- <div id="pcard"></div>  -->
+        <!-- <div id="pwcard"></div>  -->
+        <img src="card-deck-css/images/backs/blue.svg" />
+        <!-- <div class="card"></div> -->
+      </div>
+      <div class="dealer">
+        Dealer
+        <div id="dresult"></div>
+        <div id="d2result"></div>
+        <img src="card-deck-css/images/backs/red.svg" />
+        <!-- <div class="card"></div> -->
+      </div>
+      <!-- <button id="button">Play</button> -->
+      <div id="credits">Credits: 5</div>
+    </div>
+  </body>
+</html>
